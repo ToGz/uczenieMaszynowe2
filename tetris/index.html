@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            border: 2px solid black;
+            margin-top: 20px;
+            background-color: #eee;
+        }
+        #score {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        #controls {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tetris Game</h1>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <div id="info">
+            <p id="score">Score: 0</p>
+            <p id="level">Level: 1</p>
+        </div>
+        <canvas id="tetrisCanvas"></canvas>
+        <div id="controls">
+            <span>⬆️ Rotate</span>
+            <span>⬅️ Move Left</span>
+            <span>➡️ Move Right</span>
+            <span>⬇️ Move Down</span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
