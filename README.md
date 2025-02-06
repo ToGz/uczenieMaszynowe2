@@ -1,1 +1,1 @@
-Minesweeper & Tetris implementations created usiong chatGPT for educational puropses
+Minesweeper & Tetris implementations created using chatGPT for educational puropses
